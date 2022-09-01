@@ -100,7 +100,9 @@ html{
     font-size: 3.5rem;
     color:rgb(0, 166, 235);
 }
-
+#resume_btn{
+    padding: 20px;
+}
 /* project section starts */
 .project-section{
     width: 93%;
@@ -137,7 +139,7 @@ html{
 }
 .p_btn{
     width: 100px;
-    padding: 3%;
+    padding: 2%;
     border: none;
     background-color:rgb(0, 166, 235);
     border-radius: 10%;
@@ -145,7 +147,7 @@ html{
     box-shadow: 5px 10px 18px #888888;
 }
 .p_btn:hover{
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 #P_img1{
     border: 1px solid rgba(255,0,76,200);
@@ -205,13 +207,13 @@ html{
     padding: 15px;
     width: 30%;
     background-color: #00a6eb;
-    color: black;
+    color: white;
     border: none;
     box-shadow: 5px 10px 18px #888888;
 }
 .form-btn:hover{
 transform: scale(1.02);
-color: white;
+color: white !important;
 }
 .touchinfo{
     font-size: large;
