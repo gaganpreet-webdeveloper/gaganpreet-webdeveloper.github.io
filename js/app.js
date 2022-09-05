@@ -49,8 +49,8 @@ project_heading.addEventListener('mouseout', function mouseout(e){
 const P_img1 = document.getElementById('P_img1');
 P_img1.addEventListener('mouseover', function mouseover(e){
     e.target.style.border = 'none';
-    e.target.style.transform = 'scale(1.1)';
-    e.target.style.boxShadow = '5px 5px 25px rgba(255,0,76,200)'; 
+    e.target.style.transform = 'scale(1.02)';
+    e.target.style.boxShadow = '5px 5px 20px rgba(255,0,76,200)'; 
     e.target.style.transitionDuration = '2s';
 })
 P_img1.addEventListener('mouseout', function mouseout(e){
@@ -75,8 +75,8 @@ P_img1.addEventListener('mouseout', function mouseout(e){
 const P_img3 = document.getElementById('P_img3');
 P_img3.addEventListener('mouseover', function mouseover(e){
     e.target.style.border = 'none';
-    e.target.style.transform = 'scale(1.1)';
-    e.target.style.boxShadow = '5px 5px 25px #4fc9da'; 
+    e.target.style.transform = 'scale(1.02)';
+    e.target.style.boxShadow = '5px 5px 20px #4fc9da'; 
     e.target.style.transitionDuration = '2s';
 })
 P_img3.addEventListener('mouseout', function mouseout(e){
