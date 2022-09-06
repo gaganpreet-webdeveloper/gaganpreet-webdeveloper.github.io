@@ -9,7 +9,7 @@ var typed = new Typed(".auto-type", {
 const proginfo = document.getElementById('proginfo');
 const progunderline = document.getElementById('progress-underline');
 proginfo.addEventListener('mouseover', function onmouseover(e){
-    progunderline.style.width = '170px'
+    progunderline.style.width = '130px'
     progunderline.style.transitionDuration = '2s';
 })
 proginfo.addEventListener('mouseout', function mouseout(e){
@@ -90,7 +90,7 @@ P_img3.addEventListener('mouseout', function mouseout(e){
 const sendmsg = document.getElementById('sendmsg');
 const progunderline1 = document.getElementById('progress-underline1');
 sendmsg.addEventListener('mouseover', function onmouseover(e){
-    progunderline1.style.width = '270px'
+    progunderline1.style.width = '180px'
     progunderline1.style.transitionDuration = '2s';
 })
 
@@ -102,7 +102,7 @@ sendmsg.addEventListener('mouseout', function mouseout(e){
 const getintouch = document.getElementById('getintouch');
 const progunderline2 = document.getElementById('progress-underline2');
 getintouch.addEventListener('mouseover', function onmouseover(e){
-    progunderline2.style.width = '220px';
+    progunderline2.style.width = '150px';
     progunderline2.style.transitionDuration = '2s';
 })
 
