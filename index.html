@@ -27,16 +27,16 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
             <ul class="navbar-nav my-navbar-nav justify-content-around">
                 <li class="nav-item">
-                    <a class="nav-link navigate_link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link navigate_link" aria-current="page" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navigate_link" href="#about">About</a>
+                    <a class="nav-link navigate_link" href="#about-me-section">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navigate_link" href="#Project">Projects</a>
+                    <a class="nav-link navigate_link" href="#my_projects_section">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navigate_link" href="#Contact">Contact</a>
+                    <a class="nav-link navigate_link" href="#my_contact_section">Contact</a>
                 </li>
         </div>
         <div class="d-flex animate__animated animate__fadeInDown" id="profile-icons">
@@ -74,7 +74,7 @@
     <!-- banner section end -->
 
     <!-- about section starts here -->
-    <section class="about-me-section my_section_container my-5 py-5">
+    <section class="my_section_container my-5 py-5" id="about-me-section">
         <h1 class="heading mb-5">
             <span class="bar">About Me</span>
         </h1>
@@ -149,7 +149,7 @@
     <!-- about section ends here -->
 
     <!-- My skills section starts here -->
-    <section class="my_skills_section my_section_container my-5 py-5">
+    <section class="my_section_container my-5 py-5" id="my_skills_section">
         <h1 class="heading mb-5">
             <span class="bar">My Skills</span>
         </h1>
@@ -247,58 +247,66 @@
     <!-- My Skills section ends here -->
 
     <!-- MY Projects Section start here -->
-    <section class="my_projects_section my_section_container my-5 py-5">
+    <section class="my_section_container my-5 py-5" id="my_projects_section">
         <h1 class="heading mb-5">
             <span class="bar">Projects</span>
         </h1>
         <div class="row my_row">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="card my-1">
                     <img src=" Images/fylo.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Fylo Webpage</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <button class="btn btn-lg my_button" onclick="go()">
+                        <p class="card-text h-50">
+                            Fylo Webpage is a static and Responsive webpage.
+                            Technologies used : HTML, CSS, CSS Mediaquery.
+                        </p>
+                        <button class="btn btn-lg my_button" onclick="gotofylo()">
                             Visit
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="card my-1">
                     <img src="Images/web_note.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <button class="btn btn-lg my_button" onclick="go()">
+                        <h5 class="card-title">Web Notes</h5>
+                        <p class="card-text h-50">
+                            Web Notes is a notes saving Application.
+                            Technologies used : HTML, CSS, Javascript.
+                        </p>
+                        <button class="btn btn-lg my_button" onclick="gotowebnotes()">
                             Visit
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="card my-1">
                     <img src="Images/gym_site.jpg" class="card-img-top " alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <button class="btn btn-lg my_button" onclick="go()">
+                        <h5 class="card-title">Fit Freak (Under Development) </h5>
+                        <p class="card-text h-50">
+                            Fit Freak is a Gym Website.
+                            Technologies used : HTML, CSS, Bootsrap,, Xampp, PHP, Mysql.
+                        </p>
+                        <button class="btn btn-lg my_button">
                             Visit
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="card my-1">
                     <img src="Images/myportfolio.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <button class="btn btn-lg my_button" onclick="go()">
+                        <h5 class="card-title">Personal Portfolio</h5>
+                        <p class="card-text h-50">
+                            Personal Portfolio is a Gym Website.
+                            Technologies used : HTML, CSS, Bootsrap, JavaScript.
+                        </p>
+                        <button class="btn btn-lg my_button" onclick="gotoportfolio()">
                             Visit
                         </button>
                     </div>
@@ -309,7 +317,7 @@
     <!-- My Projects Section ends here -->
 
     <!-- contact section starts here  -->
-    <section class="contact-section">
+    <section class="contact-section" id="my_contact_section">
         <div class="contact-outer">
             <div class="contact-middle">
                 <div class="contact-inner">
@@ -339,7 +347,7 @@
                                         placeholder="Message" rows="5"></textarea>
                                 </div>
 
-                                <button class="btn btn-lg my_button my_button_sm" onclick="go()">
+                                <button class="btn btn-lg my_button my_button_sm">
                                     Send Message
                                 </button>
                             </form>

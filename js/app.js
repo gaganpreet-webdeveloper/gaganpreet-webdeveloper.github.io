@@ -4,6 +4,17 @@ function go() {
 		"_blank"
 	);
 }
+function gotofylo() {
+	window.open("https://gaganpreet-webdeveloper.github.io/Fylo/", "_blank");
+}
+
+function gotowebnotes() {
+	window.open("https://webnotes179.netlify.app/", "_blank");
+}
+
+function gotoportfolio() {
+	window.open("https://gaganpreet-webdeveloper.github.io/", "_blank");
+}
 
 var typed = new Typed(".auto-type", {
 	strings: ["Developer...", "Student...", "Codder..."],

@@ -197,8 +197,8 @@ body {
 }
 /* footer css ends here  */
 
-@media (min-width: 0px) and (max-width: 630px) {
+@media (min-width: 0px) and (max-width: 615px) {
 	.my_button_sm {
-		width: 50%;
+		width: 70%;
 	}
 }
