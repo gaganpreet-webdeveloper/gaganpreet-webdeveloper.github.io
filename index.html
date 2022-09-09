@@ -1,271 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
-            rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
-            crossorigin="anonymous">
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-        />
-        <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
-        crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
 </head>
+
 <body>
-<!-- navbar starts here -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark px-5 navbar_stick"> 
-            <a class="navbar-brand logo animate__animated animate__fadeInDown" href="#">DHANI</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                    
-                </span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                <ul class="navbar-nav my-navbar-nav justify-content-around">
-                    <li class="nav-item">
-                        <a class="nav-link navigate_link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navigate_link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navigate_link" href="#Project">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link navigate_link" href="#Contact">Contact</a>
-                    </li>
-            </div>
-            <div class="d-flex animate__animated animate__fadeInDown" id="profile-icons">
-                <div class="row">
-                    <div class="col-sm-4 icons " >
-                        <a href="https://github.com/gaganpreet-webdeveloper" target="_blank"><img src="Images/icons8-github-50.png" alt=""></a> 
-                    </div>
-                    <div class="col-sm-4 icons">
-                        <a href="https://www.linkedin.com/in/gaganpreet-singh-9a2965247/" target="_blank"><img src="Images/icons8-linkedin-50.png" alt=""></a> 
-                    </div>
-                    <div class="col-sm-4 icons">
-                        <a href="https://www.hackerrank.com/gagandhani179" target="_blank"><img src="Images/icons8-hackerrank-50.png" alt=""></a> 
-                    </div>
+    <!-- navbar starts here -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark px-5 navbar_stick">
+        <a class="navbar-brand logo animate__animated animate__fadeInDown" href="#">DHANI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+
+            </span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+            <ul class="navbar-nav my-navbar-nav justify-content-around">
+                <li class="nav-item">
+                    <a class="nav-link navigate_link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navigate_link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navigate_link" href="#Project">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navigate_link" href="#Contact">Contact</a>
+                </li>
+        </div>
+        <div class="d-flex animate__animated animate__fadeInDown" id="profile-icons">
+            <div class="row">
+                <div class="col-sm-4 icons ">
+                    <a href="https://github.com/gaganpreet-webdeveloper" target="_blank"><img src="Images/github.png"
+                            alt=""></a>
+                </div>
+                <div class="col-sm-4 icons">
+                    <a href="https://www.linkedin.com/in/gaganpreet-singh-9a2965247/" target="_blank"><img
+                            src="Images/linkdin.png" alt=""></a>
+                </div>
+                <div class="col-sm-4 icons">
+                    <a href="https://www.hackerrank.com/gagandhani179" target="_blank"><img src="Images/hackerrank.png"
+                            alt=""></a>
                 </div>
             </div>
-    
+        </div>
+
         </div>
     </nav>
-<!-- navbar ends here -->
-<!-- banner section start -->
-<header class="banner vh-100">
-    <h1 class="banner_heading">Hi, I'm Gaganpreet</h1>
-    <div class="sub_banner">
-        <span class="auto-type"></span>
-    </div>
-</header>
-<!-- banner section end -->  
+    <!-- navbar ends here -->
 
+    <!-- banner section start -->
+    <header class="row my_row banner align-items-center">
+        <div class="banner-content text-center">
+            <h1 class="display-1">
+                Hi, I'm Gaganpreet
+            </h1>
+            <h2 class="display-2 banner-heading-2">
+                <span class="auto-type"></span>
+            </h2>
+        </div>
+    </header>
+    <!-- banner section end -->
 
-<!-- about section starts -->
-<section class="container-fluid about-section py-5" id="about">
-    <h1 class="heading py-5">
-        <span class="bar">About Me</span>
-    </h1>
-    <div class="row my_row about_section_area" >
-        <div class="col-lg-6">
-            <div class="row my_row align-items-center" >
-                <div class="col-lg-4 personal_block">
-                    <img class="my-pic" src="Images/my-pic.jpg" alt="">
-                </div>
-                <div class="col-lg-8 personal-info personal_block">
-                    <div class="personal_info_about_me"><b>Name : </b>Gaganpreet Singh</div>
-                    <div class="personal_info_about_me"><b>Age : </b>23</div>
-                    <div class="personal_info_about_me"><b>Profile : </b>Web Developer</div>
-                    <div class="personal_info_about_me"><b>Email : </b>gagandhani179@gmail.com</div>
-                    <div class="personal_info_about_me"><b>Phone no : </b>(+91)7986553743</div>
-                </div>
-            </div>
-        </div>
+    <!-- about section starts here -->
+    <section class="about-me-section my_section_container my-5 py-5">
+        <h1 class="heading mb-5">
+            <span class="bar">About Me</span>
+        </h1>
 
-        <div class="col-lg-6">
-            <div class="about-me">
-                <p>
-                    Hello! I am Gaganpreet Singh. MCA Student at Panjab University. I am interested in Web Development and Frontend development. 
-                    I Am a Good Learner and Listener. I am passionate about
-                    implementing and launching new projects. Ability to translate Business requirements into Technical solutions. Looking to Start a career as an entry-level software engineer with a Reputed firm driven by technology.
-                    Strong in design and Integration with intuitive problem-solving skills.
-                </p>
-                <a target="_blank" href=" https://www.smartr.me/api/public/profiles/gaganpreet.singh166/localized-resume">
-                    <button class="btn btn-lg p_btn">Download CV</button>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="row my_row about_section_area">
-        <h2 class="heading mt-5 py-5">
-            <span class="bar">My Skills</span>
-        </h2>
-        <div class="row my_row about_section_area">
-            <div class="col-lg-6">
-                <div class="skillset">
-                    <h5 class="pt-3">HTML5</h5>
-                    <div class="progress" style="height: 15px;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:85%;height: 15px; background-color: rgb(0, 166, 235);">85%</div>
-                    </div>
-                    <h5 class="pt-3">CSS</h5>
-                    <div class="progress" style="height: 15px;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:70%;height: 15px; background-color: rgb(0, 166, 235);">70%</div>
-                    </div>
-                    <h5 class="pt-3">BOOTSTRAP</h5>
-                    <div class="progress" style="height: 15px;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:65%;height: 15px; background-color: rgb(0, 166, 235);">65%</div>
-                    </div>
-                    <h5 class="pt-3">JAVASCRIPT</h5>
-                    <div class="progress" style="height: 15px;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:35%;height: 15px; background-color: rgb(0, 166, 235);">35%</div>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="col-lg-6">
-                <div class="skillset">
-                    <h5 class="pt-3">C</h5>
-                    <div class="progress" style="height: 15px;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:85%;height: 15px; background-color: rgb(0, 166, 235);">85%</div>
-                    </div>
-                    <h5 class="pt-3">C++</h5>
-                    <div class="progress" style="height: 15px;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:65%;height: 15px; background-color: rgb(0, 166, 235);">65%</div>
-                    </div>
-                    <h5 class="pt-3">SQL</h5>
-                    <div class="progress" style="height: 15px;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:85%;height: 15px; background-color: rgb(0, 166, 235);">85%</div>
-                    </div>
-                    <h5 class="pt-3">GIT & GITHUB</h5>
-                    <div class="progress" style="height: 15px;">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:65%;height: 15px; background-color: rgb(0, 166, 235);">65%</div>
-                    </div>
-                </div>
-            </div>
-            <div class="py-5"></div>
-        </div>
-    </div>
-</section>
-<!-- about section ends -->
+        <div class="row my_row">
 
-<!-- project section starts -->
-<section class="container-fluid project-section" id="Project">
-    <h1 class="heading">
-        <span class="bar">Projects</span>
-    </h1>
-    <!-- <div class="progress" id="project_underline"style="width:10px; height: 5px; background-color: rgb(0, 166, 235);"></div> -->
-    <div class="row pt-5 my_row">
-        <div class="col-lg-4 col-md-4 col-sm-12">
-            <div class="project_box1">
-                <img src="Images/p1.jpg" class="p_img" id="P_img1" alt="">
-                <div class="project_content">
-                    <p>This is a online notes taking site. It uses browser's local storage for storing the information.
-                        It is created by using <b>HTML5</b>, <b>JAVASCRIPT</b>, <b>CSS</b>.
-                        To watch the Fronted view of the site please Tap the Given below Button.
-                    </p>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="row my_row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 my-3">
+                        <img class="my-pic" src="Images/my-pic.jpg" alt="Gaganpreet Singh">
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 py-1">
+                        <div class="row my_row">
+                            <div class="col-lg-3 col-md-3 col-sm-3 my_col_xs_3 personal_info_about_me py-2">
+                                <b class="text-dark">Name :</b>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9 my_col_xs_9 personal_info_about_me py-2">
+                                Gaganpreet Singh
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 my_col_xs_3 personal_info_about_me py-2">
+                                <b class="text-dark">Age :</b>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9 my_col_xs_9 personal_info_about_me py-2">
+                                23
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 my_col_xs_3 personal_info_about_me py-2">
+                                <b class="text-dark">Profile :</b>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9 my_col_xs_9 personal_info_about_me py-2">
+                                Web Developer
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 my_col_xs_3 personal_info_about_me py-2">
+                                <b class="text-dark">Email :</b>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9 my_col_xs_9 personal_info_about_me py-2">
+                                gagandhani179@gmail.com
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 my_col_xs_3 personal_info_about_me py-2">
+                                <b class="text-dark">Contact :</b>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9 my_col_xs_9 personal_info_about_me py-2">
+                                (+91) 7986553743
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <a target="_blank" href="https://webnotes179.netlify.app/">
-                    <button class="btn btn-lg p_btn">Visit</button>
-                </a>
             </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-            <div class="project_box1">
-                <img src="Images/p3.jpg" class="p_img" id="P_img2" alt="">
-                <div class="project_content">
-                    <p>This is a Gym website. In which people takes subscriptions and lots of other functionalities. It is created by using <b>HTML5</b>, <b>JAVASCRIPT</b>, <b>CSS</b>, <b>PHP</b>. To watch the Fronted view please Tap the Given below Button.
-                    </p>
-                </div>
-                <a target="_blank" href="#">
-                    <button class="p_btn" style="background-color: rgba(238,78,52,255); color: white" target="blank">Visit</button>
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-            <div class="project_box1">
-                <img src="Images/p2.jpg" class="p_img"  id="P_img3" alt="">
-                <div class="project_content">
-                    <p>This is a Dark folio website . It is a static website. It is created for the frontend view only.
-                        It is created by using <b>HTML5</b>, <b>JAVASCRIPT</b>, <b>CSS</b>.
-                        To watch the Fronted view of the site please Tap the Given below Button.
-                    </p>
-                </div>
-                <a target="_blank" href="https://gaganpreet-webdeveloper.github.io/Fylo/">
-                    <button class="btn btn-lg p_btn">Visit</button>
-                </a>
-            </div>
-        </div>
-    </div>
-    
-</section>
 
-<!-- project section ends -->
-
-<!-- contact section starts -->
-<section class="contact" id="Contact">
-    <div class="contact-inner">
-        <div class="contact-inar">
-            <div class="contact-iner-iner">
-                <div class="contact-one-side">
-                    <h1 class="bars">
-                        <span class="bar">Send Message</span>
-                    </h1>
-                    <!-- <div class="progress" id="progress-underline1"></div> -->
-                    <form action="" method="post">
-                        <input class="form-common mt-5 "  id="box1" type="text" placeholder="Enter your name" required >
-                        <input class="form-common"  id="box2" type="email" placeholder="Enter your Email" required>
-                        <input class="form-common"  id="box3" type="text" placeholder="subject" required>
-                        <textarea id="w3review"  id="box4" class="form-common1" name="w3review" required rows="5"></textarea>
-                        <button class="form-btn"><a> Send Message</a></button>
-                    </form>
-                </div>
-                <div class="contact-two-side">
-                    <h1 class="bars">
-                        <span class="bar">Get in Touch</span>
-                    </h1>
-                    <!-- <div class="progress" id="progress-underline2"style="width:10px; height: 5px; background-color: rgb(0, 166, 235);"></div> -->
-                    <div class="getintouch">
-                        <p class="touchinfo mt-3">I am a Developer, Currently I am pursuing my Study, I gave my Hundred percent to every project. Right now, I done two or three Major projects and also working on Projects.
-                            I am good to learn and always encourge my juniors to work hard. So Hope,  You are interseted to know more about me. For that you can connect with me from the given below links.
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="row my_row">
+                    <div class="col-lg-12">
+                        <p class="about-me-text my-3">
+                            Hello! I am Gaganpreet Singh. MCA Student at Panjab University. I am interested in Web
+                            Development and Frontend development.I Am a Good Learner and Listener. I am passionate about
+                            implementing and launching new projects. Ability to translate Business requirements into
+                            Technical solutions. Looking to Start a career as an entry-level software engineer with a
+                            Reputed firm driven by technology. Strong in design and Integration with intuitive
+                            problem-solving skills.
                         </p>
-                        <div>
-                            <img src="Images/icons8-location-48.png" alt="">
-                            179, Newdeep Nagar Hoshiarpur.
+                        <button class="btn btn-lg my_button my_button_sm" onclick="go()">
+                            Download CV
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- about section ends here -->
+
+    <!-- My skills section starts here -->
+    <section class="my_skills_section my_section_container my-5 py-5">
+        <h1 class="heading mb-5">
+            <span class="bar">My Skills</span>
+        </h1>
+        <div class="row my_row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="row my_row">
+                    <div class="skillset">
+                        <h5 class="">HTML5</h5>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                                aria-valuemax="100" style="width:85%;height: 15px; background-color: rgb(0, 166, 235);">
+                                85%
+                            </div>
                         </div>
-                        <div>
-                            <img src="Images/icons8-secured-letter-48.png" alt="">
-                            gagandhani179@gmail.com
+                    </div>
+                    <div class="skillset">
+                        <h5 class="">CSS</h5>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                                aria-valuemax="100" style="width:70%;height: 15px; background-color: rgb(0, 166, 235);">
+                                70%
+                            </div>
                         </div>
-                        <div>
-                            <img src="Images/icons8-outgoing-call-48.png" alt="">
-                            (+91) 7986553743
+                    </div>
+                    <div class="skillset">
+                        <h5 class="">BOOTSTRAP</h5>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                                aria-valuemax="100" style="width:65%;height: 15px; background-color: rgb(0, 166, 235);">
+                                65%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillset">
+                        <h5 class="">JAVASCRIPT</h5>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                                aria-valuemax="100" style="width:45%;height: 15px; background-color: rgb(0, 166, 235);">
+                                45%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="row my_row">
+                    <div class="skillset">
+                        <h5 class="">C</h5>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                                aria-valuemax="100" style="width:85%;height: 15px; background-color: rgb(0, 166, 235);">
+                                85%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillset">
+                        <h5 class="">C++</h5>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                                aria-valuemax="100" style="width:65%;height: 15px; background-color: rgb(0, 166, 235);">
+                                65%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillset">
+                        <h5 class="">SQL</h5>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                                aria-valuemax="100" style="width:75%;height: 15px; background-color: rgb(0, 166, 235);">
+                                75%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillset">
+                        <h5 class="">GIT & GITHUB</h5>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                                aria-valuemax="100" style="width:65%;height: 15px; background-color: rgb(0, 166, 235);">
+                                65%
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- contact section ends -->
+    </section>
+    <!-- My Skills section ends here -->
 
-<!-- footer starts -->
-<footer class="footer">
-    <div class="footer-sub1">
-        © Copyright <b>DHANI</b>. All Rights Reserved <br> &nbsp; &nbsp; &nbsp; &nbsp; Designed by <b>Gaganpreet Singh</b> 
-    </div>
-</footer>
-<!-- footer ends -->
+    <!-- MY Projects Section start here -->
+    <section class="my_projects_section my_section_container my-5 py-5">
+        <h1 class="heading mb-5">
+            <span class="bar">Projects</span>
+        </h1>
+        <div class="row my_row">
+            <div class="col-lg-3">
+                <div class="card my-1">
+                    <img src=" Images/fylo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fylo Webpage</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <button class="btn btn-lg my_button" onclick="go()">
+                            Visit
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card my-1">
+                    <img src="Images/web_note.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <button class="btn btn-lg my_button" onclick="go()">
+                            Visit
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card my-1">
+                    <img src="Images/gym_site.jpg" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <button class="btn btn-lg my_button" onclick="go()">
+                            Visit
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card my-1">
+                    <img src="Images/myportfolio.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <button class="btn btn-lg my_button" onclick="go()">
+                            Visit
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- My Projects Section ends here -->
+
+    <!-- contact section starts here  -->
+    <section class="contact-section">
+        <div class="contact-outer">
+            <div class="contact-middle">
+                <div class="contact-inner">
+                    <div class="row my_row">
+                        <div class="col-lg-6 contact-side">
+                            <h1 class="heading mb-5 contact-heading">
+                                <span class="bar">Send Message</span>
+                            </h1>
+                            <form>
+                                <div class="mb-5">
+                                    <input type="text" class="form-control form-common" id="inputName"
+                                        placeholder="Enter your name">
+                                </div>
+
+                                <div class="mb-5">
+                                    <input type="email" class="form-control form-common" id="inputEmail"
+                                        placeholder="Enter your email">
+                                </div>
+
+                                <div class="mb-5">
+                                    <input type="text" class="form-control form-common" id="inputSubject"
+                                        placeholder="Subject">
+                                </div>
+
+                                <div class="mb-5">
+                                    <textarea type="text" class="form-control form-common" id="inputEmail"
+                                        placeholder="Message" rows="5"></textarea>
+                                </div>
+
+                                <button class="btn btn-lg my_button my_button_sm" onclick="go()">
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                        <div class="col-lg-6 contact-side">
+                            <h1 class="heading mb-5 contact-heading">
+                                <span class="bar">Get in Touch</span>
+                            </h1>
+                            <div class="getintouch">
+                                <p class="touchinfo mt-3">I am a Developer, Currently I am pursuing my Study, I gave my
+                                    Hundred percent to every project. Right now, I done two or three Major projects and
+                                    also
+                                    working on Projects.
+                                    I am good to learn and always encourge my juniors to work hard. So Hope, You are
+                                    interseted to know more about me. For that you can connect with me from the given
+                                    below
+                                    links.
+                                </p>
+                                <div>
+                                    <img src="Images/icons8-location-48.png" alt="">
+                                    179, Newdeep Nagar Hoshiarpur.
+                                </div>
+                                <div>
+                                    <img src="Images/icons8-secured-letter-48.png" alt="">
+                                    gagandhani179@gmail.com
+                                </div>
+                                <div>
+                                    <img src="Images/icons8-outgoing-call-48.png" alt="">
+                                    (+91) 7986553743
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section ends here  -->
+
+    <!-- footer section starts here-->
+    <footer class="footer">
+        <div class="footer-sub1">
+            © Copyright <b>DHANI</b>. All Rights Reserved <br> &nbsp; &nbsp; &nbsp; &nbsp; Designed by <b>Gaganpreet
+                Singh</b>
+        </div>
+    </footer>
+    <!-- footer section ends here -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="js/app.js"></script>
 </body>
+
 </html>
