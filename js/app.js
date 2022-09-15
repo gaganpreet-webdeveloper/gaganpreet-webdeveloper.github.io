@@ -26,7 +26,7 @@ var typed = new Typed(".auto-type", {
 const P_img1 = document.getElementById("P_img1");
 P_img1.addEventListener("mouseover", function mouseover(e) {
 	e.target.style.border = "none";
-	e.target.style.transform = "scale(1.02)";
+	e.target.style.transform = "scale(1.1)";
 	e.target.style.boxShadow = "5px 5px 20px #4fc9da";
 	e.target.style.transitionDuration = "2s";
 });
@@ -62,3 +62,8 @@ P_img3.addEventListener("mouseout", function mouseout(e) {
 	e.target.style.border = "1px solid #4fc9da";
 	e.target.style.transitionDuration = "2s";
 });
+
+// project section start
+
+const project1 = document.getElementById("p1");
+project1.addEventListener();

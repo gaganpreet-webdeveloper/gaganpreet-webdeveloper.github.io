@@ -54,13 +54,9 @@ body {
 	background-color: black !important;
 }
 .logo {
-	font-family: "Roboto Slab", serif;
-	font-size: 2rem;
-	color: var(--primary_color);
+	width: 120px;
 }
-.logo:hover {
-	color: white;
-}
+
 .navigate_link {
 	color: white;
 	font-size: 1.2rem !important;
